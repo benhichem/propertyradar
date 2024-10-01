@@ -1,7 +1,7 @@
 {
-  "name": "{{param `github.repo` | lowercase}}",
+  "name": "propertyradar",
   "version": "1.0.0",
-  "description": "{{param `description`}}",
+  "description": "scrape list items from propertyradar",
   "main": "dist/index.js",
   "engines": {
     "npm": ">=10.8.1",
@@ -19,14 +19,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/{{param `github.owner`}}/{{param `github.repo`}}.git"
+    "url": "git+https://github.com/benhichem/propertyradar.git"
   },
-  "author": "{{param `git.name`}}<{{param `git.email`}}>",
+  "author": "benhichem<hichemben45@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/{{param `github.owner`}}/{{param `github.repo`}}/issues"
+    "url": "https://github.com/benhichem/propertyradar/issues"
   },
-  "homepage": "https://github.com/{{param `github.owner`}}/{{param `github.repo`}}#readme",
+  "homepage": "https://github.com/benhichem/propertyradar#readme",
   "devDependencies": {
     "@types/jest": "^29.5.12",
     "@typescript-eslint/eslint-plugin": "^8.0.1",

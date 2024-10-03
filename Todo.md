@@ -17,3 +17,15 @@
     IF CheckValidLists.length > 0 Run Scrape List Properties 
     Run Write Function 
     Else Return.
+
+
+---- TODO's 1/10 : 
+[x] Create Folder Setup 
+[x] Fill in Types 
+[x] Write Puppeteer Scraper Interface 
+[x] Write Login Script
+--- TODO's 2/10 : 
+[x] Write Scrape All Lists
+[ ] Write CheckList function 
+    [x] Database integration
+        [x] Database Connection  
